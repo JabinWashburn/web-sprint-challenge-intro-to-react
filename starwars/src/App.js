@@ -28,7 +28,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">Characters</h1>
       {character.map(character => {
-        return<Character key={character.height} name={character.name} birth={character.birth_year} mass={character.mass}/>
+        return<Character name={character.name} birth={character.birth_year} mass={character.mass}/>
       })}
     </div>
   );
