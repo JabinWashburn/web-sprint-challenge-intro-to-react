@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is imbeding visable components WITH function within the same language for reuseable and mutable data. Passing things like props allows us to use data across a web app. 
+
 1. Describe component state.
+
+component state is an object that can be rerendered when state is updated. mutable data. 
 
 1. Describe props.
 
+props is an object that can be passed around though the application to allow us to not have to rewrite data and functionality. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+fetching data and manually changing the DOM are examples of side effects. we can sync side effects by setting the dependancy array to state or props to cause the rerender to the DOM 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
